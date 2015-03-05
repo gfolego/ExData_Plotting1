@@ -2,7 +2,7 @@
 
 ## Course Project 1
 
-For more information on the project description, please refer to the [repository description](README.md).
+For more information on the project description, please refer to the [repository description](../README.md).
 
 
 ## Generating the plots
@@ -23,7 +23,7 @@ These scripts require the following packages:
 * [data.table](http://cran.r-project.org/web/packages/data.table/index.html)
 * [lubridate](http://cran.r-project.org/web/packages/lubridate/index.html)
 
-For optimized use of processing time and memory space, the [read_table.R](solution/read_table.R) script already reads only the necessary data.
+For optimized use of processing time and memory space, the [read_data.R](read_data.R#L28) script already reads only the necessary data.
 
 Most importantly, the scripts start with the assumption that the dataset file is available in the working directory in an unzipped `household_power_consumption.txt` file.
 
