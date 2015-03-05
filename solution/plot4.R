@@ -22,7 +22,7 @@ par(mfcol = c(2, 2))
 # Generate topleft plot
 with(dat, plot(Global_active_power ~ DateTime,
                type = "l",
-               ylab = "Global Active Power (kilowatts)",
+               ylab = "Global Active Power",
                xlab = ""))
 
 # Generate bottomleft plot
