@@ -25,7 +25,7 @@ These scripts require the following packages:
 
 For optimized use of processing time and memory space, the [read_table.R](solution/read_table.R) script already reads only the necessary data.
 
-Most importantly, the scripts start with the assumption that the dataset file is available in the working directory in an unzipped `UCI HAR Dataset` directory.
+Most importantly, the scripts start with the assumption that the dataset file is available in the working directory in an unzipped `household_power_consumption.txt` file.
 
 
 ## Additional notes
